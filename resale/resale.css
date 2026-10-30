@@ -1,0 +1,44 @@
+:root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif;color:#253134;background:#dce2e1}
+*{box-sizing:border-box}
+body{margin:0}
+button,textarea{font:inherit}
+button{cursor:pointer}
+a{color:inherit}
+img{display:block;max-width:100%}
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:18px 28px}
+.back{text-decoration:none;font-size:.9rem}
+.wrap{width:min(980px,calc(100% - 32px));margin:0 auto 48px}
+.kicker{letter-spacing:.14em;font-size:.72rem;font-weight:650;color:#8a6e61}
+h1{font-size:clamp(1.6rem,3vw,2.2rem);font-weight:520;letter-spacing:-.04em;margin:8px 0}
+.lead{max-width:62ch;line-height:1.6;color:#4e615b}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:22px}
+.piece{padding:0;border:1px solid #ffffffc7;background:#f9faf7d4;border-radius:18px;text-align:left;color:inherit;overflow:hidden}
+.piece img{height:210px;width:100%;object-fit:contain;background:transparent}
+.piece div{padding:12px 12px 14px}
+.piece strong{display:block;font-size:.95rem}
+.piece span{display:block;margin-top:4px;color:#667870;font-size:.8rem}
+.badge{display:inline-block;margin-top:8px;padding:3px 8px;border-radius:999px;background:#e7f0ea;color:#2f5b45;font-size:.72rem;font-weight:650}
+.detail{display:grid;grid-template-columns:minmax(220px,320px) 1fr;gap:28px;margin-top:18px;align-items:start}
+.detail figure{margin:0;background:#f7f8f4;border-radius:20px;padding:12px}
+.detail img{width:100%;height:420px;object-fit:contain}
+.verified{display:flex;align-items:center;gap:8px;color:#2f5b45;font-weight:650}
+.verified i{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#2f5b45;color:#fff;font-style:normal}
+h2{margin:8px 0 4px;font-weight:560;letter-spacing:-.03em}
+.ask{font-size:1.35rem;margin:8px 0 14px}
+.ask small{display:block;font-size:.75rem;color:#667870;font-weight:500}
+dl{margin:0}
+.row{display:grid;grid-template-columns:7.5rem 1fr;gap:8px;padding:7px 0;border-top:1px solid #d5dfda}
+dt{color:#6d7f78}
+.owner{margin-top:16px;padding:14px;border-radius:16px;background:#fff8}
+.owner h3{margin:0 0 6px;font-size:1rem}
+form{margin-top:14px;display:grid;gap:8px}
+textarea{width:100%;min-height:96px;border:1px solid #ccd9ce;border-radius:12px;padding:12px;background:#fff;resize:vertical}
+.submit{border:0;border-radius:999px;background:#243833;color:#fff;padding:12px 16px}
+.sent{margin-top:10px;color:#2f5b45}
+.passport-link{display:inline-block;margin-top:14px}
+@media(max-width:800px){
+ .grid{grid-template-columns:1fr 1fr}
+ .detail{grid-template-columns:1fr}
+ .detail img{height:300px}
+}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}
