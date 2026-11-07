@@ -1,7 +1,7 @@
 (() => {
 'use strict';
 const listings = [
- {id:'TJ2024001',name:'TECH SHELL JACKET',line:'Technical Performance Jacket · Knit & Woven Hybrid',color:'Sage Green',image:'../assets/details/front.webp',ask:320,retail:'$400',weight:'585g',origin:'China',material:'100% Hemp · 100% Silk',owner:'You',mine:true,since:'2024-01-15',transfers:0,place:'With you now',passport:'../passport/index.html'},
+ {id:'TJ2024001',name:'TECH SHELL JACKET',line:'Technical Performance Jacket · Knit & Woven Hybrid',color:'Sage Green',image:'../assets/details/front.webp',ask:320,retail:'$2,400',weight:'585g',origin:'China',material:'100% Hemp · 100% Silk',owner:'You',mine:true,since:'2024-01-15',transfers:0,place:'With you now',passport:'../passport/index.html'},
  {id:'WH2024001',name:'HERITAGE LUXURY WATCH',line:'Precision Craftsmanship · Heritage Classic',color:'Black · Brown strap',image:'../assets/resale/watch.png',ask:2900,retail:'$3,800',weight:'55–65g',origin:'Switzerland',material:'Stainless steel · Cowhide leather',owner:'Lin',since:'2024-06-02',transfers:1,place:'New York'},
  {id:'SN2025001',name:'UPTOWN LOW-TOP SNEAKER',line:'Premium Sustainable Sneaker',color:'Beige / Off-white',image:'../assets/resale/shoe.jpg',ask:820,retail:'$1,100',weight:'320g',origin:'Italy',material:'Suede leather · Polyester knit · Rubber sole',owner:'Mei',since:'2024-09-18',transfers:0,place:'Los Angeles'},
  {id:'JC2026001',name:'LUXURY JEWELRY',line:'Japanese Akoya pearls · Platinum',color:'Pearl',image:'../assets/resale/jewelry.png',ask:12000,retail:'$15,000',weight:'25g',origin:'Pearls Japan',material:'Japanese Akoya pearls · Platinum',owner:'Noah',since:'2025-01-11',transfers:0,place:'London'},

@@ -22,7 +22,7 @@ const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const art=(a,l,p)=>`assets/avatar-${a}-${l}-${p}.webp`;
 const ownPhoto=()=>state.usePhoto&&!!state.photo;
 const piecesOf=i=>Array.isArray(looks[i].pieces)?looks[i].pieces[state.avatar]:looks[i].pieces;
-const ownedJacket={name:'TECH SHELL JACKET',kind:'own',kindLabel:'Owned',image:'assets/details/front.webp',buy:'Owned · Sage Green · retail $400',href:'passport/index.html',hrefLabel:'Open digital passport'};
+const ownedJacket={name:'TECH SHELL JACKET',kind:'own',kindLabel:'Owned',image:'assets/details/front.webp',buy:'Owned · Sage Green · retail $2,400',href:'passport/index.html',hrefLabel:'Open digital passport'};
 const resaleRefs=[
  {id:'WH2024001',name:'HERITAGE LUXURY WATCH',desc:'Stainless-steel watch with a black dial and brown leather strap',image:'assets/resale/watch.png',buy:'DPP-verified resale · Lin · New York · asking $2,900',href:'resale/index.html#WH2024001'},
  {id:'SN2025001',name:'UPTOWN LOW-TOP SNEAKER',desc:'Ivory suede low-top sneaker',image:'assets/resale/shoe.jpg',buy:'DPP-verified resale · Mei · Los Angeles · asking $820',href:'resale/index.html#SN2025001'},
@@ -169,7 +169,7 @@ render();
   {id:'origin',label:'Origin',chip:'Where was it made?',keys:['where','origin','made','china','italy','usa','trace','supply','产地','哪里','供应链','追溯'],answer:'Made in China.\nHemp yarn from the USA, silk yarn from Italy.',sources:[src('Product Info','passport/basic-info.html'),src('Traceability','passport/traceability.html')]},
   {id:'carbon',label:'Footprint',chip:'What is the carbon footprint?',keys:['carbon','co2','footprint','water','sustain','gots','pfas','recycled','碳','足迹','可持续','环保'],answer:'30 kg CO2e · 2,200 L water.\nMain woven and knit listed as 100% recycled.',sources:[src('Sustainability','passport/sustainability.html')]},
   {id:'weather',label:'Weather',chip:'Can I wear it in the rain?',keys:['rain','waterproof','wind','weather','outdoor','雨','防水','防风'],answer:'Listed as waterproof, windproof, and breathable.\nNo storm rating is on file, so I cannot confirm more than that.',sources:[src('Product Info','passport/basic-info.html')]},
-  {id:'price',label:'Price & weight',chip:'How much does it weigh, and what did it cost?',keys:['price','cost','weight','585','400','多重','价格','多少钱'],answer:'$400 · 585 g.\nColours: Black, Sage Green. Sizes XS–XL.',sources:[src('Product Info','passport/basic-info.html')]}
+  {id:'price',label:'Price & weight',chip:'How much does it weigh, and what did it cost?',keys:['price','cost','weight','585','400','2400','2,400','多重','价格','多少钱'],answer:'$2,400 · 585 g.\nColours: Black, Sage Green. Sizes XS–XL.',sources:[src('Product Info','passport/basic-info.html')]}
  ];
  const unknown={answer:'That is not in this jacket’s digital product passport, so I cannot confirm it.',sources:[]};
  const unknownHints=['shrink','return','refund','warranty','lifespan','how long will','who designed','designer','fit me','size am i','缩水','退货','保修','设计师'];
